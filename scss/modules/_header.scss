@@ -1,0 +1,81 @@
+.section { 
+		margin: 100px 130px;
+		box-shadow: 0 4px 68px rgba(0, 0, 0, 0.1);
+
+	&__title { 
+		font: 42px $title;
+		padding-bottom: 40px;
+	}
+
+	&__paragraphs { 
+		font: 18px/1.9 $font;
+		// color: #7a7a7a;
+		// opacity: .7;
+		color: rgba(0,0,0,0.7);
+	 }
+
+	&__p1 { 
+			padding-bottom: 55px;
+
+			&:first-letter { 
+			 font: 110px $title;
+			 float: left;
+			 line-height: 0.8;
+			 margin-right: 10px;
+			 color: black;
+
+		}
+
+	}
+
+	&__p2 { 
+			padding-bottom: 55px;
+	}
+
+
+	&__p3 { 
+			padding-bottom: 30px;
+
+	}
+
+	&__quote { 
+		font: 24px/1.4 $font;
+		font-style: italic;
+		color: rgba(0,0,0,0.7);
+		// opacity: .7;
+	}
+
+	&__bracket {
+	font-size: 60px;
+	padding-right: 25px; 
+	 }
+
+	&__form { 
+		padding-top: 30px;
+	}
+
+	&__button {  
+		padding: 25px 75px;
+		border: 2px solid #eaa258;
+		color: #eaa258;
+		font: 18px $font;
+		text-transform: uppercase;
+		background: transparent;
+		letter-spacing: 4px;
+		cursor: pointer;
+
+
+		&:hover { 
+		background: #fac187; 
+		color: white;}
+	}
+
+
+}
+
+.container { 
+	max-width: 1200px;
+	margin: 0 auto;	
+	padding: 140px 120px 120px;
+
+}
